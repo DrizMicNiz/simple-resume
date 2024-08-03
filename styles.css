@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body {
+    font-family: Arial, Arial, Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-top: 25px;
+    background-color: green;
+}
+
+header img {
+    width: 100px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 25px;
+    background-color: yellowgreen;
+    
+}
+
+nav a {
+    margin: 0px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 3px;
+    background-color: yellow;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+section {
+    background-color: seagreen;
+}
+
+section div.box {
+    background-color: bisque;
+    width: 50%;
+    margin: 0px auto;
+    padding-left: 30px;
+}
